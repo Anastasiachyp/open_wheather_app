@@ -13,17 +13,18 @@ const App = () => {
       );
       setTemp(weatherResponse.data.main.temp)
       // Query the Weather API to get city
-      const locationResponse = await axios.get(`https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=9a5e70a1dda6499da0a396f3c8e9d84e`
+      const locationResponse = await axios.get(
+        `https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=9a5e70a1dda6499da0a396f3c8e9d84e`
       );
-      setCity(locationResponse.data.results[0].components.city)
-      debugger;
+      setCity(locationResponse.data.results[0].components.city);
     });
   }, []);
+ 
 
   return (
     <div data-cy="weather-display">
-      <h4 data-cy="temp">Temperature: {temp}°C </h4>
-      <h4 data-cy="city">City: {city} </h4>
+      <h4 data-cy="temp">Temperature: {temp}°C</h4>
+      <h4 data-cy="city">City: {city}</h4>
     </div>
   );
 };

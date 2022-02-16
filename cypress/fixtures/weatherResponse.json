@@ -1,0 +1,43 @@
+{
+    "coord": {
+        "lon": 12.1077,
+        "lat": 42.4207
+    },
+    "weather": [
+        {
+            "id": 802,
+            "main": "Clouds",
+            "description": "scattered clouds",
+            "icon": "03n"
+        }
+    ],
+    "base": "stations",
+    "main": {
+        "temp": 26,
+        "feels_like": 7.25,
+        "temp_min": 6,
+        "temp_max": 10.76,
+        "pressure": 1014,
+        "humidity": 63
+    },
+    "visibility": 10000,
+    "wind": {
+        "speed": 2.57,
+        "deg": 340
+    },
+    "clouds": {
+        "all": 40
+    },
+    "dt": 1645030359,
+    "sys": {
+        "type": 1,
+        "id": 6807,
+        "country": "IT",
+        "sunrise": 1644991638,
+        "sunset": 1645029857
+    },
+    "timezone": 3600,
+    "id": 3164039,
+    "name": "Viterbo",
+    "cod": 200
+}

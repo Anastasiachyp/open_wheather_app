@@ -1,0 +1,177 @@
+{
+    "data": {
+        "documentation": "https://opencagedata.com/api",
+        "licenses": [
+            {
+                "name": "see attribution guide",
+                "url": "https://opencagedata.com/credits"
+            }
+        ],
+        "rate": {
+            "limit": 2500,
+            "remaining": 2464,
+            "reset": 1645056000
+        },
+        "results": [
+            {
+                "annotations": {
+                    "DMS": {
+                        "lat": "42° 25' 15.16584'' N",
+                        "lng": "12° 6' 27.95436'' E"
+                    },
+                    "MGRS": "33TTH6204700560",
+                    "Maidenhead": "JN62bk21wa",
+                    "Mercator": {
+                        "x": 1347830.246,
+                        "y": 5195403.198
+                    },
+                    "OSM": {
+                        "edit_url": "https://www.openstreetmap.org/edit?node=675608662#map=16/42.42088/12.10777",
+                        "note_url": "https://www.openstreetmap.org/note/new#map=16/42.42088/12.10777&layers=N",
+                        "url": "https://www.openstreetmap.org/?mlat=42.42088&mlon=12.10777#map=16/42.42088/12.10777"
+                    },
+                    "UN_M49": {
+                        "regions": {
+                            "EUROPE": "150",
+                            "IT": "380",
+                            "SOUTHERN_EUROPE": "039",
+                            "WORLD": "001"
+                        },
+                        "statistical_groupings": [
+                            "MEDC"
+                        ]
+                    },
+                    "callingcode": 39,
+                    "currency": {
+                        "alternate_symbols": [],
+                        "decimal_mark": ",",
+                        "html_entity": "&#x20AC;",
+                        "iso_code": "EUR",
+                        "iso_numeric": "978",
+                        "name": "Euro",
+                        "smallest_denomination": 1,
+                        "subunit": "Cent",
+                        "subunit_to_unit": 100,
+                        "symbol": "€",
+                        "symbol_first": 0,
+                        "thousands_separator": "."
+                    },
+                    "flag": "🇮🇹",
+                    "geohash": "sr897d2xe3h42e0kk5r2",
+                    "qibla": 123.47,
+                    "roadinfo": {
+                        "drive_on": "right",
+                        "road": "Piazza Giuseppe Verdi",
+                        "speed_in": "km/h"
+                    },
+                    "sun": {
+                        "rise": {
+                            "apparent": 1644991680,
+                            "astronomical": 1644986040,
+                            "civil": 1644989940,
+                            "nautical": 1644987960
+                        },
+                        "set": {
+                            "apparent": 1645029840,
+                            "astronomical": 1645035480,
+                            "civil": 1645031580,
+                            "nautical": 1645033500
+                        }
+                    },
+                    "timezone": {
+                        "name": "Europe/Rome",
+                        "now_in_dst": 0,
+                        "offset_sec": 3600,
+                        "offset_string": "+0100",
+                        "short_name": "CET"
+                    },
+                    "what3words": {
+                        "words": "gets.bespoke.behave"
+                    }
+                },
+                "bounds": {
+                    "northeast": {
+                        "lat": 42.4209294,
+                        "lng": 12.1078151
+                    },
+                    "southwest": {
+                        "lat": 42.4208294,
+                        "lng": 12.1077151
+                    }
+                },
+                "components": {
+                    "ISO_3166-1_alpha-2": "IT",
+                    "ISO_3166-1_alpha-3": "ITA",
+                    "_category": "education",
+                    "_type": "library",
+                    "city": "Viterbo",
+                    "continent": "Europe",
+                    "country": "Italia",
+                    "country_code": "it",
+                    "county": "Viterbo",
+                    "county_code": "VT",
+                    "house_number": "3",
+                    "library": "Biblioteca Comunale degli Ardenti",
+                    "political_union": "European Union",
+                    "postcode": "01100",
+                    "road": "Piazza Giuseppe Verdi",
+                    "state": "Lazio",
+                    "state_code": "LAZ"
+                },
+                "confidence": 9,
+                "formatted": "Biblioteca Comunale degli Ardenti, Piazza Giuseppe Verdi, 3, 01100 Viterbo VT, Italia",
+                "geometry": {
+                    "lat": 42.4208794,
+                    "lng": 12.1077651
+                }
+            }
+        ],
+        "status": {
+            "code": 200,
+            "message": "OK"
+        },
+        "stay_informed": {
+            "blog": "https://blog.opencagedata.com",
+            "twitter": "https://twitter.com/OpenCage"
+        },
+        "thanks": "For using an OpenCage API",
+        "timestamp": {
+            "created_http": "Wed, 16 Feb 2022 17:04:03 GMT",
+            "created_unix": 1645031043
+        },
+        "total_results": 1
+    },
+    "status": 200,
+    "statusText": "OK",
+    "headers": {
+        "content-type": "application/json; charset=utf-8"
+    },
+    "config": {
+        "transitional": {
+            "silentJSONParsing": true,
+            "forcedJSONParsing": true,
+            "clarifyTimeoutError": false
+        },
+        "transformRequest": [
+            null
+        ],
+        "transformResponse": [
+            null
+        ],
+        "timeout": 0,
+        "xsrfCookieName": "XSRF-TOKEN",
+        "xsrfHeaderName": "X-XSRF-TOKEN",
+        "maxContentLength": -1,
+        "maxBodyLength": -1,
+        "headers": {
+            "Accept": "application/json, text/plain, */*"
+        },
+        "method": "get",
+        "url": "https://api.opencagedata.com/geocode/v1/json?q=42.420677+12.107669&key=9a5e70a1dda6499da0a396f3c8e9d84e"
+    },
+    "request": {
+        "method": "GET",
+        "url": "https://api.opencagedata.com/geocode/v1/json?q=42.420677+12.107669&key=9a5e70a1dda6499da0a396f3c8e9d84e",
+        "id": "xhr7"
+    }
+}
