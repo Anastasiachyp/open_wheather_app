@@ -16,7 +16,7 @@ const App = () => {
       const locationResponse = await axios.get(
         `https://api.opencagedata.com/geocode/v1/json?q=${latitude}+${longitude}&key=9a5e70a1dda6499da0a396f3c8e9d84e`
       );
-      setCity(locationResponse.data.results[0].components.city);
+      setCity(locationResponse.data.data.results[0].components.city);
     });
   }, []);
  
