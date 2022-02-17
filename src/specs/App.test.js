@@ -23,10 +23,10 @@ describe("App.jsx", () => {
 
   it("is expected to display user coordinates", () => {
     expect(
-      screen.getByText("You are at latitude 42.420677 and longitude 12.10766")
+      screen.getByText("You are at latitude 42.420677 and longitude 12.107669")
     ).toBeInTheDocument();
   });
-
+    
   it("is expected to get geolocation once", () => {
     expect(mockGeolocation.getCurrentPosition).toBeCalledTimes(1);
   });
